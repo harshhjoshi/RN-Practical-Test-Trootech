@@ -1,0 +1,36 @@
+# React Native
+
+# Node.js dependencies
+node_modules/
+
+# Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS files
+.DS_Store
+
+# Android build output
+android/app/build/
+android/gradle/
+android/local.properties
+
+# iOS build output
+ios/Pods/
+ios/build/
+ios/Podfile.lock
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Dependency directories
+/.expo
+/.expo-shared
+/ios/Pods/
+/web_modules/
+
+# Bypass prettier for some files
+**/*.snap
+**/*.spec.js
+**/*.test.js
+**/__tests__/
